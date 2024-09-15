@@ -20,8 +20,6 @@ body {
     background-image: url(./img/Star-big.png), url(./img/Star1.png), url(./img/Star2.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: right 0, 74% 80%, 5% 9%;
-
-    
 }
 
 .top__img {
@@ -126,14 +124,21 @@ body {
     padding-left: 119px;
     padding-right: 120px;
     padding-bottom: 50px;
-    display: grid;
+    // display: grid;
     gap: 32px;
-    grid-template-columns: repeat(12, 1fr);
+    // grid-template-columns: repeat(12, 1fr);
     align-items: end;
+    display: flex;
+}
+
+.about__block {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .about__game {
-    grid-column: span 4;
+    // grid-column: span 4;
     border-radius: 30px;
     background: #FFF;
     box-shadow: 0px 12.612px 42.251px -7.567px rgba(0, 0, 0, 0.13);

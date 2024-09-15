@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  width: 1440px;
+  background: #FFF;
+}
+
+.center {
+  padding-left: calc(50% - 720px);
+  padding-right: calc(50% - 720px);
+}
+
+.top {
+  height: 800px;
+  background: #E1FF8F;
+  position: relative;
+}
+
+.top__img {
+  position: absolute;
+  top: -333px;
+  right: -488px;
+}
+
+.top__name {
+  padding-top: 196px;
+  padding-left: 120px;
+}
+
+.top__title {
+  width: 796px;
+  height: 156px;
+  color: #202027;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.top__text {
+  width: 720px;
+  height: 64px;
+  color: #202027;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 24px;
+}
+
+.top__text_bold {
+  font-weight: 600;
+}
+
+.top__menu {
+  background: #BCEC30;
+  height: 90px;
+  margin-top: 156px;
+}
+
+.top__link {
+  display: flex;
+  gap: 51px;
+  color: #202027;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: 1.2px;
+  padding: 27px 49px;
+}
+
+.top__button {
+  font: inherit;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 600;
+  width: 247px;
+  height: 66px;
+  border-radius: 60px;
+  border: 1px solid #202027;
+  background: #202027;
+  margin-top: 48px;
+}
+
+.about {
+  height: 1470px;
+  background: #202027;
+}
+
+.about__name {
+  padding-top: 94px;
+  padding-left: 119px;
+}
+
+.about__title {
+  color: #FFF;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.about__text {
+  width: 788px;
+  height: 96px;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 24px;
+}
+
+.about__cards {
+  padding-top: 72px;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+
+.about__game {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 12.612px 42.251px -7.567px rgba(0, 0, 0, 0.13);
+}
+
+.about__name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.about__price1 {
+  color: #202027;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.about__prise2 {
+  color: #202027;
+  font-size: 32px;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */

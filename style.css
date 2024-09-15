@@ -6,8 +6,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  width: 1440px;
-  background: #FFF;
 }
 
 .center {
@@ -19,6 +17,9 @@ body {
   height: 800px;
   background: #E1FF8F;
   position: relative;
+  background-image: url(./img/Star-big.png), url(./img/Star1.png), url(./img/Star2.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: right 0, 74% 80%, 5% 9%;
 }
 
 .top__img {
@@ -83,16 +84,23 @@ body {
   border: 1px solid #202027;
   background: #202027;
   margin-top: 48px;
+  transition: 0.5s;
+}
+
+.top__button:hover {
+  background-color: white;
+  color: black;
+}
+
+.top__button:active {
+  transform: translate(0, -4px);
 }
 
 .about {
-  height: 1470px;
   background: #202027;
-}
-
-.about__name {
-  padding-top: 94px;
-  padding-left: 119px;
+  background-image: url(./img/Star-big-2.png), url(./img/Star3.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 16%, 2% 57%;
 }
 
 .about__title {
@@ -113,29 +121,41 @@ body {
 
 .about__cards {
   padding-top: 72px;
+  padding-left: 119px;
+  padding-right: 120px;
+  padding-bottom: 50px;
   display: grid;
   gap: 32px;
   grid-template-columns: repeat(12, 1fr);
-  align-items: center;
+  align-items: end;
 }
 
 .about__game {
   grid-column: span 4;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-self: stretch;
   border-radius: 30px;
   background: #FFF;
   box-shadow: 0px 12.612px 42.251px -7.567px rgba(0, 0, 0, 0.13);
 }
 
+.about__game:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
 .about__name {
+  padding-top: 94px;
+  padding-left: 119px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
-  align-self: stretch;
+}
+
+.about__price {
+  padding: 32px 32px 36px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .about__price1 {
@@ -144,6 +164,13 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 110%;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  border-radius: 52.582px;
+  background: #F7F7F7;
+  width: 94px;
+  height: 36px;
 }
 
 .about__prise2 {

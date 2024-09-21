@@ -139,6 +139,7 @@ body {
     border-radius: 30px;
     background: #FFF;
     box-shadow: 0px 12.612px 42.251px -7.567px rgba(0, 0, 0, 0.13);
+    text-decoration: none;
 }
 
 .about__game:hover {
@@ -146,7 +147,7 @@ body {
     transition: all 0.5s;
 }
 
-.about__price {
+.about__case {
     padding: 32px 32px 36px 32px;
     display: flex;
     flex-direction: column;
@@ -154,7 +155,7 @@ body {
     align-items: flex-start;
 }
 
-.about__price1 {
+.about__case1 {
     color: #202027;
     font-variant-numeric: lining-nums proportional-nums;
     font-size: 16px;
@@ -162,13 +163,13 @@ body {
     line-height: 110%;
     display: flex;
     align-items: center;
-    padding-left:16px;
+    padding-left: 16px;
     border-radius: 52.582px;
     background: #F7F7F7;
     padding: 8px 16px 10px 16px;
 }
 
-.about__prise2 {
+.about__case2 {
     color: #202027;
     font-size: 32px;
     font-weight: 700;
@@ -201,11 +202,16 @@ body {
     border-radius: 30px;
     background: #FFF;
     box-shadow: 0px 20px 67px -12px rgba(0, 0, 0, 0.13);
-    display: flex;  
+    display: flex;
 }
 
 .game__card_reverse {
     flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.games__img {
+    display: block;
 }
 
 .games__button {
@@ -231,22 +237,23 @@ body {
     transform: translate(0, -4px);
 }
 
-.games__price {
+.games__case {
     padding: 48px;
 }
 
-.games__price1 {
+.games__case1 {
     color: #202027;
     font-size: 48px;
     font-weight: 700;
 }
 
-.games__price2 {
+.games__case2 {
     color: #202027;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
     padding-top: 24px;
+    line-height: 32px;
 }
 
 

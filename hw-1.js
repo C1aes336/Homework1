@@ -44,8 +44,8 @@ num += 5;
 num -= 3;
 num *= 7;
 num /= 3;
-num = num ++;
-num = num --;
+num ++;
+num --;
 alert(num);
 
 // Задание 8
@@ -61,4 +61,4 @@ const user = {
 
 // Задание 10
 let names = prompt('Привет, ИМЯ!');
-alert(`Ваш ответ ${names}`);
+alert(`Ваше имя ${names}`);

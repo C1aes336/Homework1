@@ -9,7 +9,7 @@
         font-size: 21px;
         align-items: center;
     }
-    
+
     .about__block {
         display: flex;
         flex-direction: row;
@@ -17,24 +17,26 @@
 
     .games__img {
         width: 390px;
-        height: 372px;
     }
 
-    .games__price {
-        padding: 28px 40px;
+    .games__case {
+        padding: 24px;
     }
 
-    .games__price1 {
+    .games__case1 {
         font-size: 32px;
     }
 
-    .games__price2 {
-        padding-top: 18px;
+    .games__case2 {
+        padding-top: 15px;
         font-size: 18px;
+        line-height: 22px;
     }
 
     .games__button {
         margin-top: 26px;
+        font-size: 16px;
+        width: 285px;
     }
 }
 
@@ -42,11 +44,15 @@
     .top__button {
         margin-top: 70px;
     }
-    
+
     .about {
         background-image: none;
     }
-    
+
+    .about__name {
+        padding-top: 64px;
+    }
+
     .about__title {
         font-size: 54px;
     }
@@ -77,12 +83,18 @@
         padding: 27px 0px;
     }
 
-    .games__content {
-        padding: 0px 25px 144px 25px;
+    .games__title {
+        padding-left: 25px;
+        padding-top: 26px;
+        font-size: 54px;
     }
 
-    .games__price2 {
-        line-height: 24px;
+    .games__content {
+        padding: 0px 20px 48px 20px;
+    }
+
+    .games__case2 {
+        line-height: 22px;
     }
 }
 
@@ -97,7 +109,7 @@
     .top__menu-mobile_img {
         width: 425px;
     }
-    
+
 }
 
 @media (max-width: 767px) {
@@ -105,7 +117,7 @@
         height: 700px;
         background-position: right 0, 94% 88%, 14% 9%;
     }
-    
+
     .top__name {
         text-align: center;
         padding: 147px 14px 131px 18px;
@@ -140,6 +152,10 @@
         max-width: 426px;
     }
 
+    .games {
+        gap: 48px;
+    }
+
     .games__title {
         padding-top: 48px;
         padding-left: 16px;
@@ -147,7 +163,7 @@
     }
 
     .games__content {
-        padding: 0px 29.037px 32.667px 29.037px;
+        padding: 0px 16px 49px 16px;
         flex-direction: column;
     }
 
@@ -156,25 +172,32 @@
     }
 
     .games__img {
-        width: 317px;
-        height: 264px;
+        width: 343px;
     }
 
-    .games__price1 {
-        font-size: 32px;
+    .games__case {
+        padding: 29px 29px 32px 29px;
     }
 
-    .games__price2 {
+    .games__case2 {
         font-size: 16px;
-    }  
+        line-height: 22px;
+        width: 285px;
+        padding-top: 18px;
+    }
+
+    .games__case2_width {
+        width: 245px;
+    }
+
+    .games__button {
+        font-size: 16px;
+        width: 285px;
+    }
 }
 
 @media (width: 425px) {
     .games__img {
-        width: 367px;
-        height: 322px;
+        width: 394px;
     }
 }
-    
-
-

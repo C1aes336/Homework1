@@ -78,6 +78,9 @@ body {
     background: #202027;
     margin-top: 48px;
     transition: 0.5s;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .top__button:hover {

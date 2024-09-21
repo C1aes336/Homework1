@@ -1,5 +1,5 @@
 // Задание 1
-let price =  10;
+let price = 10;
 alert(`Значение переменной "price" = ${price} `);
 price = 20;
 alert(`Новое значение переменной "price" = ${price} `);
@@ -44,8 +44,8 @@ num += 5;
 num -= 3;
 num *= 7;
 num /= 3;
-num ++;
-num --;
+num++;
+num--;
 alert(num);
 
 // Задание 8
@@ -57,7 +57,7 @@ const user = {
     name: 'Bob',
     age: 32,
     "isAdmin": true
- };
+};
 
 // Задание 10
 let names = prompt('Привет, ИМЯ!');

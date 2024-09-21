@@ -78,6 +78,9 @@ body {
   background: #202027;
   margin-top: 48px;
   transition: 0.5s;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .top__button:hover {
@@ -267,6 +270,9 @@ body {
   .top__menu-mobile {
     display: none;
   }
+  .top__button-mobile {
+    display: none;
+  }
 }
 @media (max-width: 1024px) {
   .top__link {
@@ -305,7 +311,8 @@ body {
     background-image: none;
   }
   .about__name {
-    padding-top: 64px;
+    padding-left: 70px;
+    padding-right: 50px;
   }
   .about__title {
     font-size: 54px;
@@ -313,14 +320,18 @@ body {
   .about__cards {
     justify-content: center;
   }
-  .about__name {
-    padding-left: 25px;
+  .about__text {
+    font-size: 22px;
   }
   .top__name {
-    padding-left: 25px;
+    padding-left: 70px;
+    padding-right: 50px;
   }
   .top__title {
     font-size: 54px;
+  }
+  .top__text {
+    font-size: 22px;
   }
   .top__menu {
     margin-top: 161px;
@@ -331,12 +342,12 @@ body {
     padding: 27px 0px;
   }
   .games__title {
-    padding-left: 25px;
+    padding-left: 70px;
     padding-top: 26px;
     font-size: 54px;
   }
   .games__content {
-    padding: 0px 20px 48px 20px;
+    padding: 0px 20px 144px 20px;
   }
   .games__case2 {
     line-height: 22px;
@@ -356,11 +367,14 @@ body {
 @media (max-width: 767px) {
   .top {
     height: 700px;
-    background-position: right 0, 94% 88%, 14% 9%;
+    background-position: right 0, 94% 87%, 14% 9%;
   }
   .top__name {
     text-align: center;
-    padding: 147px 14px 131px 18px;
+    padding: 147px 14px 128px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .top__title {
     font-size: 40px;
@@ -372,18 +386,32 @@ body {
     line-height: 22px;
   }
   .top__button {
+    display: none;
+  }
+  .top__button-mobile {
+    font: inherit;
+    color: #FFF;
     font-size: 16px;
+    font-weight: 600;
     width: 285px;
+    padding: 16px 28px;
+    border-radius: 60px;
+    border: 1px solid #202027;
+    background: #202027;
     margin-top: 36px;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .top__button:hover {
+    background-color: #202027;
+    color: white;
   }
   .top__menu {
     display: none;
   }
   .about {
     display: none;
-  }
-  .top__menu-mobile {
-    max-width: 426px;
   }
   .games {
     gap: 48px;
@@ -419,9 +447,25 @@ body {
     font-size: 16px;
     width: 285px;
   }
+  .games__button:hover {
+    background-color: #202027;
+    color: white;
+  }
+  .games__button:active {
+    transform: translate(0, 0);
+  }
 }
 @media (width: 425px) {
+  .top__name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 147px 14px 121px 18px;
+  }
   .games__img {
     width: 394px;
+  }
+  .games__button {
+    width: 332px;
   }
 }/*# sourceMappingURL=style.css.map */

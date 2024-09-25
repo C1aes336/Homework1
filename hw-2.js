@@ -107,3 +107,25 @@ if (value != Number(even)) {
         alert(`Это нечетное число`);
     }
 }
+
+
+// Задание 7
+
+let number; 
+
+
+do {
+    number - Number(prompt(`Введите 5 для проверки`));
+} while (number !== 5);
+
+
+
+let i = 1;
+
+let n = Number(prompt(`Сколько раз вам сказать привет`));
+
+while (i <=n) {
+    alert(`Привет!`);
+    i++;
+}
+

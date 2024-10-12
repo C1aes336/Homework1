@@ -38,13 +38,14 @@ const obj = {
  let m = 2;
  let num = 0;
 
- while (n /= 2) {
+ while (n /= m) {
     if (n <= 25){
         break;
     }
     console.log(n);
     num++;
     console.log(`Количество циклов ${num}`);
+    
     n++;
  }
 

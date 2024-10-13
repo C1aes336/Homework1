@@ -121,3 +121,140 @@
 // console.log(square3.getPerimeter());
 // console.log(square4.getArea());
 // console.log(square4.getPerimeter());
+
+
+
+// let numbers = [1,2,3,5];
+// console.log(numbers);
+// numbers[3] = 4;
+// numbers[4] = 5;
+// console.log(numbers);
+// const userName = ['Alex', 'Dima', 'Vlad'];
+// console.log(userName);
+// userName[userName.length] = 'John';
+// console.log(userName);
+
+
+
+// const numbs = [2, 4, 5, 6, 8];
+// numbs.forEach((el) => {
+//     console.log(el);
+// });
+
+// numbs.forEach((el, index) => {
+//     console.log(`${index}: ${el}`);
+// });
+
+// numbs.forEach((el, index, arr) => {
+//    console.log(`${index}: ${el}, массив: ${arr}`);
+// });
+
+// for (let i = 0; i < numbs.length; i++) {
+//     if (numbs[i] == 5) break;
+//     console.log(numbs[i]);
+// }
+
+
+
+// let catalog = [
+//     ['Столы', 'Дорогой стол', 'Большой стол'],
+//     ['Диваны', 'Красный диван', 'Белый диван']
+//  ]
+
+//  for (let item of catalog) {
+//     for (let i = 0; i < item.length; i++) {
+//        if (i === 0) {
+//           console.log(`Категория ${item[i]}`);
+//        } else {
+//           console.log(`\t ${item[i]}`);
+//        }
+//     }
+//  }
+
+
+// const numbs = [2, 4, 5, 6, 8];
+
+// for (let index = 0; index < numbs.length; index++) {
+//     console.log(numbs[index]); 
+// }
+
+// numbs.forEach((el) => {
+//     console.log(el);
+// });
+
+// numbs.forEach((el, index) => {
+//     console.log(`${index}: ${el}`);
+// });
+
+// numbs.forEach((el, index, arr) => {
+//     console.log(`${index}: ${el}, массив: ${arr}`);
+// });
+
+// for (let index = 0; index < numbs.length; index++) {
+//     if (numbs[index] == 5) break;
+//     console.log(numbs[index]);
+// }
+
+
+
+// let text = "Привет=как=дела";
+
+// let splitText = text.split('=');
+// console.log(splitText);
+
+// splitText.sort();
+// console.log(splitText);
+
+// let joinedText = splitText.join(" ");
+// console.log(splitText);
+
+// let combinedText = text.split("=").sort().join(" ");
+// console.log(combinedText);
+
+
+
+// let arrSum = [3, 4];
+
+// const sum = (a, b) => {
+//     let result = a + b;
+//     return result;
+// }
+// console.log(sum(...arrSum));
+
+
+
+// let arrMax = [1, 2, 3, 4, 5];
+// let max = Math.max(...arrMax);
+
+// console.log(max);
+
+
+
+// function funcSum(...arrSum) {
+//     let sum = 0;
+//     for (let item of arrSum) {
+//         sum += item;
+//     }
+//     return sum;
+// }
+// console.log(funcSum(3, 5, 7));
+
+
+
+// let arrSum = [3, 4, 5, 6];
+
+// const sum = (a, b) => {
+//     let result = a + b;
+//     return result;
+// }
+// console.log(sum(...arrSum));
+
+
+// let arrSum = [3, 4, 5, 6];
+
+// const sum = (a, b, ...rest) => {
+//     let result = a + b;
+//     console.log(result);
+//     console.log(rest);
+// }
+// sum(...arrSum);

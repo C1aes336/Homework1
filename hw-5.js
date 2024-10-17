@@ -1,4 +1,5 @@
 const game2 = () => {
+
     const randomInt1 = Math.round(Math.random() * 9) + 1;
     const randomInt2 = Math.round(Math.random() * 9) + 1;
     console.log(randomInt1);
@@ -207,3 +208,4 @@ for (let i = 0; i < 6; i++) {
 console.log(newRand);
     
 console.log(newRand.reduce((a, b) => a + b) / newRand.length); 
+
